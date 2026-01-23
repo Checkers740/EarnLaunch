@@ -8,4 +8,7 @@ function loadComponent(id,file){
 loadComponent('header','components/header.html');
 loadComponent('hero','components/hero.html');
 loadComponent('trust','components/trust.html');
+loadComponent('stats','components/stats.html');
+loadComponent('about','components/about.html');
+loadComponent('faq','components/faq.html');
 loadComponent('footer','components/footer.html');
