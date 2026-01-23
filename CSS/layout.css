@@ -1,0 +1,73 @@
+/* ================================
+   LAYOUT SYSTEM – EARNLAUNCH
+   ================================ */
+
+/* GLOBAL CONTAINER */
+.container{
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:24px;
+  padding-right:24px;
+}
+
+/* PAGE SECTIONS */
+section{
+  padding:72px 0;
+}
+
+main{
+  display:block;
+}
+
+/* HEADER LAYOUT */
+.header{
+  background:var(--white);
+  border-bottom:1px solid var(--border);
+}
+
+.header-inner{
+  height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+/* HERO LAYOUT */
+.hero{
+  background:var(--white);
+}
+
+.hero-content{
+  max-width:720px;
+}
+
+/* TRUST GRID */
+.trust-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+}
+
+/* FOOTER LAYOUT */
+.footer{
+  background:var(--bg-soft);
+  border-top:1px solid var(--border);
+}
+
+/* RESPONSIVE */
+@media (max-width:1024px){
+  .trust-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:600px){
+  section{
+    padding:56px 0;
+  }
+
+  .trust-grid{
+    grid-template-columns:1fr;
+  }
+}
