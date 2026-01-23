@@ -29,7 +29,7 @@ earnlaunch/ │ ├── index.html           # Main entry file ├── css/ 
 
 1. Clone the repository:
    ```bash
-   git clone ishttps://github.com/sjcheckers/EarnLaunch.git
+   git clone is https://github.com/sjcheckers/EarnLaunch.git
 
 2. Open index.html in a browser or upload to your hosting service.
 
