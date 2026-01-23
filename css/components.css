@@ -24,3 +24,39 @@
 /* WhatsApp Floating */
 .whatsapp-btn{position:fixed;bottom:22px;right:22px;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;font-size:28px;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px rgba(0,0,0,.3);z-index:200;animation:float 2.5s ease-in-out infinite;}
 @keyframes float{50%{transform:translateY(-6px);}}
+
+.section-title{
+  font-size:2rem;
+  margin-bottom:12px;
+}
+.section-desc{
+  max-width:720px;
+  margin:0 auto 48px;
+  color:var(--muted);
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+}
+.stat-box{
+  background:#fff;
+  border-radius:10px;
+  padding:28px;
+  border:1px solid var(--border);
+}
+.stat-box h2{
+  color:var(--accent);
+  font-size:2rem;
+}
+.stat-box p{
+  font-size:.9rem;
+}
+
+@media(max-width:900px){
+  .stats{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:500px){
+  .stats{grid-template-columns:1fr;}
+}
