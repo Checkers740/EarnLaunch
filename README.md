@@ -6,6 +6,8 @@
 
 EarnLaunch is a modular, corporate-style landing page designed to convert visitors into sign-ups for Earntrix via a referral link. Inspired by marketplace platforms like Jumia, it’s clean, responsive, and mobile-friendly.
 
+**Demo url**
+https://earnlaunch.onrender.com
 ---
 
 ## 🚀 Features
