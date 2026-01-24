@@ -223,6 +223,9 @@ section {
   z-index: 99999;
 }
 
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/pro.css"> <!-- LAST -->
 /* ===============================
    RESPONSIVE
 ================================ */
